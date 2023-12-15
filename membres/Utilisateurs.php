@@ -9,9 +9,9 @@ class Utilisateurs {
             $tel,
             $mail;
 // Constente d'invaliditee
-    const NOM_INVALIDE = 1,
-        PRENOM_INVALIDE = 2,
-        MAIL_INVALIDE = 3;
+    const NOM_INVALIDE = 1;
+    const PRENOM_INVALIDE = 2;
+    const MAIL_INVALIDE = 3;
 
 //constructeur objet appel de la fonction hydrater
     public function __construct($donnees = [])
